@@ -15,7 +15,9 @@ from two CSV files, only importing the Team Name and Rating.
 
 There are a couple of ways to think about the "relatedness" of men's and women's programs. One is their rating, in this case the Massey Rating. Another 
 way is to just look at whether a team has made the tournament.  The Jupyter Notebook investigates the former using 
-[Kendall's rank correlation, <img src="https://render.githubusercontent.com/render/math?math=\tau">](https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient)
+[Kendall's rank correlation](https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient) which is usually denoted by the Greek letter tau 
+<img src="https://render.githubusercontent.com/render/math?math=\tau">. The notebook also looks at the realtionship between tournament appearances, but
+does so indirectly. (Maybe someone could help fix this.)
 
 ## Notes on downloading the data and loading into pandas
 
