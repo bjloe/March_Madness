@@ -25,9 +25,9 @@ The other notebook tries to predict tournament appearances by men's and women's 
 ## Notes on downloading the data and loading into pandas
 
 Once you navigate to the ratings pages (click [here](https://www.masseyratings.com/cb/ncaa-d1/ratings) for the men 
-and [here](https://www.masseyratings.com/cbw/ncaa-d1/ratings) for the women), you can select "Export" from the button labeled "More".  
-The data is included in this repository in the files Massey_men_d1.csv 
-and Massey_women_d1.csv. _I have not modified the CSV files after I downloaded them._ The website puts two 
-numbers in some columns; so there will be unnamed columns if you import the whole CSV file into a pandas dataframe.
+and [here](https://www.masseyratings.com/cbw/ncaa-d1/ratings) for the women), you can select "Export" from the button labeled "More". 
+The data is included in this repository in the files Massey_men_d1.csv and Massey_women_d1.csv. 
+_I have not modified the CSV files after I downloaded them._ The website puts two numbers in some columns; so there will be unnamed 
+columns if you import the whole CSV file into a pandas dataframe.
 
 I created a couple of CSV files listing teams that got tournament bids. These lists had to be edited to make sure that the team names matched.
