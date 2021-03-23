@@ -1,10 +1,10 @@
 # March Madness, Kendall's Tau, and Conditional Probability
 
 We were watching the first weekend of the NCAA Division 1 Basketball Tournaments, switching back and forth between the men 
-and the women. My wife asked, "Doesn't it seem like we're watching teams from the same schools? If a school has a strong
-men's team, does it usually have a strong women's team too?"
+and the women. My wife asked, "Doesn't it seem like we're watching teams from the same schools?" We wondered whether it was the case that when 
+a school has a strong men's team, does it have a strong women's team too?
 
-I took that as a challenge!
+Let's see what the data says!
 
 I started thinking about the **strength** of basketball programs and how they were related. I went to [Massey Ratings](https://www.masseyratings.com). 
 Ken Massey has rated sports teams for a long time, and he produces ratings for teams in a wide variety sports at many levels of competition. This 
@@ -15,9 +15,8 @@ from two CSV files, only importing the Team Name and Rating.
 
 There are a couple of ways to think about the "relatedness" of men's and women's programs. One is their rating, in this case the Massey Rating. Another 
 way is to just look at whether a team has made the tournament.  The Jupyter Notebook investigates the former using 
-[Kendall's rank correlation](https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient) which is usually denoted by the Greek letter tau 
-<img src="https://render.githubusercontent.com/render/math?math=\tau">. The notebook also looks at the realtionship between tournament appearances, but
-does so indirectly. (Maybe someone could help fix this.)
+[Kendall's rank correlation](https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient) which is usually denoted by the Greek letter tau. 
+The notebook also looks at the relationship between tournament appearances by men's and women's teams.
 
 ## Notes on downloading the data and loading into pandas
 
