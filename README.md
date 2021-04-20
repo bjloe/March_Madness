@@ -1,12 +1,12 @@
-# March Madness, Kendall's Tau, Conditional Probability, and ROC Curves
+# March Madness, Kendall's Tau, ROC Curves, and Machine Learning
 
 ## Background
 
 My wife and I were watching the first weekend of the NCAA Division 1 Basketball Tournaments, switching back and forth between the men 
 and the women. My wife asked, "Doesn't it seem like we're watching teams from the same schools?" We wondered whether it was the case that when 
-a school has a strong men's team, does it have a strong women's team too?
+a school has a strong men's team, does it have a strong women's team too?  
 
-Let's see what the data says!
+What does the data say?
 
 ## Data
 
@@ -14,6 +14,8 @@ I started thinking about the **strength** of basketball programs and how they we
 Ken Massey has rated sports teams for a long time, and he produces ratings for teams in a wide variety sports at many levels of competition. This 
 data gives us a starting point in part because it lists all Division 1 teams for men and women as well as giving an objective measure of team 
 strength. In one notebook we use the rating as a way ranking teams. In the other notebook we use the ratings directly.
+
+Note: There is more data at [this Kaggle site](https://www.kaggle.com/andrewsundberg/college-basketball-dataset) and [this one too](https://www.kaggle.com/c/ncaam-march-mania-2021).
 
 ## Statistics
 
